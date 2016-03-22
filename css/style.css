@@ -1,0 +1,226 @@
+li{
+	list-style: none;
+}
+.wareIntr{
+	font-size: 18px;
+	width: 80%;
+	/*height: 470px;*/
+	margin: 0px auto;
+	background-color:rgba(255,255,255,.2);
+}
+.wareIntr ul{
+	/*display: block;*/
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+.wareIntr ul li img{
+	display: block;
+	width: 94%;
+	margin: 0px auto;
+}
+.wareIntr ul li{
+	position: relative;
+	padding: 0px;
+	overflow: hidden;
+	width: 33.33%;
+	/*height: 205px;*/
+	line-height: 30px;
+	float: left;
+	margin-top: 20px !important;
+}
+.wareIntr ul li a{
+	padding: 0px;
+	width: 94%;
+	display: block;
+	color: black;
+	position: absolute;
+	top: 0px;
+	left: 3%;
+	z-index: 100;
+	height: 205px;
+	background-color: rgba(0,0,0,.3);
+	display: none;
+	color: snow;
+	text-decoration: none;
+	text-indent: 2em;
+	text-align: center;
+}
+.wareIntr ul li:hover a{
+	display: block;
+}
+.teaNews{
+	width: 80%;
+	margin: 0px auto;
+	/*background-color: aqua;*/
+	font-size: 20px;
+}
+.teaNews ul{
+	display: block;
+	padding: 0px;
+	width: 100%;
+	overflow: hidden;
+	display: none;
+	background-color: rgba(255,255,255,.5);
+	padding: 20px 20px;
+	border-radius: 10px;
+}
+.teaNews h3{
+	font-size: 30px;
+	font-weight: normal;
+}
+.teaNews ul li{
+	width: 50%;
+	float: left;
+	margin-top: 15px;
+}
+.teaNews ul li a{
+	text-decoration: none;
+	color: rgba(31, 33, 27,.8);
+}
+.teaNews ul li a:hover{
+	text-decoration: underline;
+}
+.section1 p{
+	margin-left: 10%;
+	text-align: left;
+	display: block;
+	width: 45%;
+	font-size: 18px;
+	font-weight: 100;
+	font-style: normal;
+	text-indent: 2em;
+	line-height: 30px;
+}
+.section3 h3{
+	font-size: 22px;
+}
+.section3 ul { position: relative; left: -120%;}
+.slide{
+	font-size: 18px;
+}
+.slide p{
+	width: 70%;
+	margin: 0px auto;
+	text-align: left;
+	text-indent: 2em;
+}
+.prize{
+	width: 80%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.prize .p{
+	width: 25%;
+	float: left;
+}
+.prize .p img{
+	width: 90%;
+	display: block;
+	margin:5%; 
+}
+#menu { margin: 0; padding: 0; position: fixed; left: 300px; top: 10px; list-style-type: none; z-index: 70;}
+#menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
+#menu a { float: left; padding: 10px 20px; background-color: rgba(255,255,255,.5); color: #333; text-decoration: none;border-radius: 5px;}
+#menu .active a { color: #fff; background-color: rgba(80, 195, 158,.3);}
+.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+#menu li a:hover{
+	background-color: rgba(80, 195, 158,.3);
+	color: #fff;
+}
+.img1 { 
+	width: 100%;
+	height: 100%;
+	background: url(./images/1.png) 50% no-repeat;background-size: cover; }
+.img2 { 
+	width: 100%;
+	height: 100%;
+	background: url(./images/cy4.0.png) 50% no-repeat;background-size: cover;}
+.img3 {
+	width: 100%;
+	height: 100%;
+	background: url(./images/cy5.0.png) 50% no-repeat;background-size: cover;}
+.img4 {
+	width: 100%;
+	height: 100%;
+ 	background: url(./images/cy5.0.png) 50% no-repeat;background-size: cover;}
+.img5 { 
+	width: 100%;
+	height: 100%;
+	background: url(./images/cy6.0.png) 50% no-repeat;background-size: cover;z-index: 9999;}
+.aboutUs{
+	display: block;
+	width: 100%;
+}
+.aboutUs li{
+	width: 70%;
+	margin: 20px auto;
+}
+.aboutUs li span{
+
+}
+.listMark{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	z-index: 200;
+	cursor: pointer;
+	display: none;
+}
+.listMark img{
+	width: 100%;
+}
+@media screen and (max-width: 1300px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .cemera{
+	  	width: 65%;
+	  }
+  /*.wareIntr ul li{
+		width: 33.33%;
+	}*/
+}
+@media screen and (max-width: 1000px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .cemera{
+  	width: 75%;
+  }
+  
+}
+@media screen and (max-width: 950px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  #menu{
+  	/*display: none;*/
+  	height: 0px;
+  	overflow: hidden;
+  	right: 100px !important;
+  	left: auto;
+  	top: 20px;
+  	width: 100px;
+  	z-index: 1000;
+
+  }
+  .listMark{
+  	display: block;
+  }
+  #menu li{
+  	width: 100%;
+
+  }
+  #menu li a{
+  	width: 100%;
+  	text-align: center;
+  	padding: 10px 0 !important;
+  }
+
+  
+}
+@media screen and (max-width: 700px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .cemera{
+  	width: 85%;
+  }
+  .wareIntr ul li{
+		width: 50%;
+	}
+	.teaNews ul li{
+		width: 100%;
+	}
+}

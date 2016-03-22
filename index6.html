@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>骑龙茶叶</title>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+
+</style>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/move.js"></script>
+<script type="text/javascript" src="js/listMark.js"></script>
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#4BBFC3','#1bbc9b', '#4BBFC3', '#7BAABE'],
+		anchors: ['page1', 'page2', 'page3', 'page4','page5','page6','page7'],
+		menu: '#menu',
+        afterLoad: function(anchorLink, index){
+           
+            if(index == 3){
+                $('.section3').find('ul').delay(300).animate({
+                    left: '0'
+                }, 1500, 'easeOutExpo');
+            }
+            if(index == 4){
+                $('.section4').find('ul').fadeIn(2000);
+            }
+        },
+        onLeave: function(index, direction){
+            
+            if(index == '3'){
+                $('.section3').find('ul').delay(500).animate({
+                    left: '-120%'
+                }, 1500, 'easeOutExpo');
+            }
+            if(index == '4'){
+                $('.section4').find('ul').fadeOut(2000);
+            }
+        }
+	});
+});
+</script>
+</head>
+
+<body>
+<div class="listMark">
+    <img src="images/list.png">
+</div>
+<ul id="menu">
+	<li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+	<li data-menuanchor="page2"><a href="#page2">关于我们</a></li>
+	<li data-menuanchor="page3"><a href="#page3">产品介绍</a></li>
+	<li data-menuanchor="page4"><a href="#page4">中国茶文化</a></li>
+	<li data-menuanchor="page5"><a href="#page5">骑龙风光</a></li>
+	<li data-menuanchor="page6"><a href="#page6">联系我们</a></li>
+</ul>
+
+<div id="dowebok">
+<!-- 首页 -->
+	<div class="section section1">
+		<!-- <div class="img1"></div> -->
+        <p>这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介这里写的是公司的简介</p>
+	</div>
+<!-- 关于我们6 -->
+	<div class="section section2">
+		<div class="slide">
+			<!-- <div class="img2"> -->
+				<p>骑龙茶叶源于中国，茶叶最早是被作为祭品使用的。但从春秋后期就被人们作为菜食，在西汉中期发展为药用，西汉后期才发展为宫廷高级饮料，普及民间作为普通饮料那是西晋以后的事。发现最早人工种植茶叶的遗迹在浙江余姚的田螺山遗址，已有6000多年的历史。饮茶始于中国。叶革质，长圆形或椭圆形，可以用开水直接泡饮，依据品种和制作方式以及产品外形分成六大类。依据季节采制可分为春茶、夏茶、秋茶、冬茶。以各种毛茶或精制茶叶再加工形成再加茶，包括分为花茶、紧压茶、萃取茶、药用保健茶、含茶饮料等</p>
+			<!-- </div> -->
+		</div>
+        <div class="slide">
+        	<!-- <div class="img2"> -->
+        		<p>这里是公司的沿革茶叶源于中国，茶叶最早是被作为祭品使用的。但从春秋后期就被人们作为菜食，在西汉中期发展为药用，西汉后期才发展为宫廷高级饮料，普及民间作为普通饮料那是西晋以后的事。发现最早人工种植茶叶的遗迹在浙江余姚的田螺山遗址，已有6000多年的历史。饮茶始于中国。叶革质，长圆形或椭圆形，可以用开水直接泡饮，依据品种和制作方式以及产品外形分成六大类。依据季节采制可分为春茶、夏茶、秋茶、冬茶。以各种毛茶或精制茶叶再加工形成再加茶，包括分为花茶、紧压茶、萃取茶、药用保健茶、含茶饮料等</p>
+        	<!-- </div> -->
+        </div>
+        <div class="slide">
+        	<!-- <div class="img2"> -->
+            <p>
+                这里是公司的文化茶叶源于中国，茶叶最早是被作为祭品使用的。但从春秋后期就被人们作为菜食，在西汉中期发展为药用，西汉后期才发展为宫廷高级饮料，普及民间作为普通饮料那是西晋以后的事。发现最早人工种植茶叶的遗迹在浙江余姚的田螺山遗址，已有6000多年的历史。饮茶始于中国。叶革质，长圆形或椭圆形，可以用开水直接泡饮，依据品种和制作方式以及产品外形分成六大类。依据季节采制可分为春茶、夏茶、秋茶、冬茶。以各种毛茶或精制茶叶再加工形成再加茶，包括分为花茶、紧压茶、萃取茶、药用保健茶、含茶饮料等
+            </p>
+            <!-- </div> -->
+        </div>
+        <div class="slide">
+        	<!-- <div class="img2"> -->
+            <p>
+                这里是公司的资质证书茶叶源于中国，茶叶最早是被作为祭品使用的。但从春秋后期就被人们作为菜食，在西汉中期发展为药用，西汉后期才发展为宫廷高级饮料，普及民间作为普通饮料那是西晋以后的事。发现最早人工种植茶叶的遗迹在浙江余姚的田螺山遗址，已有6000多年的历史。饮茶始于中国。叶革质，长圆形或椭圆形，可以用开水直接泡饮，依据品种和制作方式以及产品外形分成六大类。依据季节采制可分为春茶、夏茶、秋茶、冬茶。以各种毛茶或精制茶叶再加工形成再加茶，包括分为花茶、紧压茶、萃取茶、药用保健茶、含茶饮料等
+            </p>
+        	<!-- </div> -->
+        </div>
+        <div class="slide">
+        	<!-- <div class="img2"> -->
+        		<div class="prize">
+                    <div class="p">
+                        <img src="images/12.jpg">
+                    </div>  
+                    <div class="p">
+                        <img src="images/12.jpg">
+                    </div>  
+                    <div class="p">
+                        <img src="images/12.jpg">
+                    </div>  
+                    <div class="p">
+                        <img src="images/12.jpg">
+                    </div>      
+                </div>
+        	<!-- </div> -->
+        </div>
+        <div class="slide">
+        	<div class="cemera cemera0">
+                <video src="http://www.w3school.com.cn/i/movie.ogg" width="60%" height="auto" controls >
+                <!-- autoplay loop -->
+                <source type=video/mp4 />
+                    浏览器不支持播放
+                 </video>   
+            </div>
+        </div>
+	</div>
+
+<!-- 产品介绍3 -->
+	<div class="section section3">
+        <h3>丰富的产品</h3>
+       <div class="wareIntr">
+            <ul>
+                <li>
+                    <img src="./images/chaping1.png">
+                    <a href="#">茶叶1下面是对该产品的介绍茶叶1下面是对该产品的介绍茶叶1下面是对该产品的介绍茶叶1下面是对该产品的介绍</a>
+                </li>
+                <li>
+                    <img src="./images/chaping1.png">
+                    <a href="#">茶叶2</a>
+                </li>
+                <li>
+                    <img src="./images/chaping1.png">
+                    <a href="#">茶叶3</a>
+                </li>
+                <li>
+                    <img src="./images/chaping1.png">
+                    <a href="#">茶叶4</a>
+                </li>
+                <li>
+                    <img src="./images/chaping1.png">
+                    <a href="#">茶叶3</a>
+                </li>
+                <li>
+                    <img src="./images/chaping1.png">
+                    <a href="#">茶叶3</a>
+                </li>
+            </ul>
+            <div><a href="#">了解更多》》</a></div>
+        </div>
+	</div>
+
+<!-- 中国茶文化1 -->
+	<div class="section section4">
+        <div class="teaNews">
+            <h3>不一样的茶文化</h3>
+            <ul>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+                <li><a href="#">茶叶新闻这是一条茶叶新闻</a></li>
+            </ul>
+        </div>
+	</div>
+
+<!-- 骑龙风光2 -->
+	<div class="section section5">
+		<div class="slide">
+        	<div class="cemera cemera1">
+                <video src="http://www.w3school.com.cn/i/movie.ogg" width="640" height="480" controls >
+                <!-- autoplay loop -->
+                <source type=video/mp4 />
+                    浏览器不支持播放
+                 </video>   
+            </div>
+        </div>
+        <div class="slide">
+        	<div class="cemera2">
+                <video src="http://www.w3school.com.cn/i/movie.ogg" width="640" height="480" controls >
+                <!-- autoplay loop -->
+                <source type=video/mp4 />
+                    浏览器不支持播放
+                 </video>   
+            </div>
+        </div>
+	</div>
+
+<!-- 联系我们2 -->
+	<div class="section">
+		<div class="slide">
+        	<ul class="aboutUs">
+                <li>
+                    <span class="labP">客服服务电话</span>
+                    <span class="labN">0718-5348001</span>
+                </li> 
+                <li>
+                    <span class="labP">传真</span>
+                    <span class="labN">0718-5348001</span>
+                </li> 
+                <li>
+                    <span class="labP">邮箱</span>
+                    <span class="labN">110@qq.com</span>
+                </li> 
+                <li>
+                    <span class="labP">地址</span>
+                    <span class="labN">湖北省鹤峰县邬阳</span>
+                </li> 
+                <li>
+                    <span class="labP">网址</span>
+                    <span class="labN">www.qilongtea.com</span>
+                </li> 
+                <li>
+                    <span class="labP">负责人</span>
+                    <span class="labN">郭总</span>
+                </li> 
+                <li>
+                    <span class="labP">企业微信二维码</span>
+                    <span class="labN"><img src="#"></span>
+                </li>   
+            </ul>
+        </div>
+        <div class="slide">
+        	<!-- <div class="img6"> -->
+        		企业招聘
+        	<!-- </div> -->
+        </div>
+	</div>
+</div>
+</body>
+</html>

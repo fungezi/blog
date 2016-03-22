@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>骑龙茶叶</title>
+<style>
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: "微软雅黑";
+}
+.catePage{
+    width: 100%;
+
+}
+.heade{
+    width: 100%;
+    /*background: rgba(28, 162, 97,.5);*/
+}
+.heade img{
+    width: 100%;
+    display: block;
+}
+.heade #menu{
+    width: 60%;
+    display: block;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.heade #menu li{
+    padding: 15px;
+    float: left;
+    text-align: center;
+}
+.heade #menu li a{
+    text-decoration: none;
+    color: #CD7D28;
+}
+.heade #menu li a:hover{
+    color: #AB671F;
+}
+.heade .logo{
+    width: 10%;
+    margin-left: 5%;
+    float: left;
+}
+.heade .logo img{
+    width: auto;
+}
+.footer{
+    margin-top: 40px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+}
+.singlePage{
+    padding-top: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+.singleBox{
+    width: 60%;
+    margin: 0px auto;
+}
+.singleBox h3{
+    font-weight: normal;
+    text-align: center;
+}
+.singleBox p{
+    margin-top: 25px;
+    line-height: 25px;
+    padding: 0px 20px;
+    text-indent: 2em;
+}
+.singleBox img{
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+}
+@media screen and (max-width: 1300px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .con{
+        width: 33.33%;
+    }
+    .singleBox{
+        width: 80%;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width: 1000px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .singlePage{
+        padding-top: 30px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .singleBox{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .heade #menu{
+        width: 80%;
+        display: block;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width: 700px){/*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .singlePage{
+        padding-top: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .singleBox{
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="catePage">
+    <!-- 头部 -->
+        <div class="heade">
+            <div class="logo">
+                <img src="images/teaLogo.png">
+            </div>
+            <ul id="menu">
+                <li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+                <li data-menuanchor="page2"><a href="#page2">关于我们</a></li>
+                <li data-menuanchor="page3"><a href="#page3">产品介绍</a></li>
+                <li data-menuanchor="page4"><a href="#page4">中国茶文化</a></li>
+                <li data-menuanchor="page5"><a href="#page5">骑龙风光</a></li>
+                <li data-menuanchor="page6"><a href="#page6">联系我们</a></li>
+            </ul>
+            <!-- <img src="images/cHeade.png"> -->
+        </div>
+        <div class="singlePage">
+            <div class="singleBox">
+                <h3>茶叶，指茶树的叶子和芽</h3>
+                <p>
+                    茶叶，指茶树的叶子和芽。[1]  别名茶、槚（jiǎ），茗，荈（chuǎn）。泛指可用于泡茶的常绿灌木茶树的叶子，以及用这些叶子泡制的饮料，后来引申为所有用植物花、叶、种子、根泡制的草本茶，如“菊花茶”等；用各种药材泡制的“凉茶”等，在中国文学中亦称雷芽。有些国家亦有以水果及香草等其它植物叶而泡出的茶，如“水果茶”。[2] 
+                <img src="images/art1.jpg">
+                    茶叶源于中国，茶叶最早是被作为祭品使用的。但从春秋后期就被人们作为菜食，在西汉中期发展为药用，西汉后期才发展为宫廷高级饮料，普及民间作为普通饮料那是西晋以后的事。发现最早人工种植茶叶的遗迹在浙江余姚的田螺山遗址，已有6000多年的历史。饮茶始于中国。叶革质，长圆形或椭圆形，可以用开水直接泡饮，依据品种和制作方式以及产品外形分成六大类。依据季节采制可分为春茶、夏茶、秋茶、冬茶。以各种毛茶或精制茶叶再加工形成再加茶，包括分为花茶、紧压茶、萃取茶、药用保健茶、含茶饮料等。
+                    茶叶中含有儿茶素、胆甾烯酮、咖啡碱、肌醇、叶酸、泛酸等成分，可以增进人体健康。茶叶饮品-茶被誉为"世界三大饮料之一"。
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>版权所有 © 2007-2015 鄂ICP备05003346号 共青团中南民族大学委员会<br/>
+Made by NewThread 地址：武汉市洪山区民院路708号 邮编:430074</p>
+        </div>
+    </div>
+</body>
+</html>
